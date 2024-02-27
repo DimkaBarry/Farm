@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Farm.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"F:\Github\Farm\Farm\Intermediate\Build\Win64\x64\FarmEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"F:\Github\Farm\Farm\Intermediate\Build\Win64\x64\UnrealEditor\Development\Farm\Farm.init.gen.cpp.obj"
+"F:\Github\Farm\Farm\Intermediate\Build\Win64\x64\UnrealEditor\Development\Farm\PlayerCharacter.gen.cpp.obj"
+"F:\Github\Farm\Farm\Intermediate\Build\Win64\x64\UnrealEditor\Development\Farm\Farm.cpp.obj"
+"F:\Github\Farm\Farm\Intermediate\Build\Win64\x64\UnrealEditor\Development\Farm\PlayerCharacter.cpp.obj"
+"F:\Github\Farm\Farm\Intermediate\Build\Win64\x64\UnrealEditor\Development\Farm\Default.rc2.res"
+/OUT:"F:\Github\Farm\Farm\Intermediate\Build\Win64\x64\UnrealEditor\Development\Farm\UnrealEditor-Farm.lib"

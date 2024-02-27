@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\github\\farm\\farm\\intermediate\\build\\win64\\unrealeditor\\inc\\farm\\uht\\farm.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\github\\farm\\farm\\intermediate\\build\\win64\\x64\\farmeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "f:\\github\\farm\\farm\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\farm\\definitions.farm.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
