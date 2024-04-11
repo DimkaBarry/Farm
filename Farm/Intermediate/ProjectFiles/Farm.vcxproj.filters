@@ -45,11 +45,29 @@
     <ClCompile Include="..\..\Source\Farm\Private\PlayerCharacter.cpp">
       <Filter>Source\Farm\Private</Filter>
     </ClCompile>
+    <Filter Include="Source\Farm\Private\Items">
+      <UniqueIdentifier>{85A2B9FD-4C06-3EC4-ACAC-99DAAF8E66B6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Farm\Private\Items\Item.cpp">
+      <Filter>Source\Farm\Private\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Farm\Private\Items\Seed.cpp">
+      <Filter>Source\Farm\Private\Items</Filter>
+    </ClCompile>
     <Filter Include="Source\Farm\Public">
       <UniqueIdentifier>{9399711A-5CAE-389E-BFE8-6C241320E593}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Farm\Public\PlayerCharacter.h">
       <Filter>Source\Farm\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\Farm\Public\Items">
+      <UniqueIdentifier>{2C881D51-31AB-3DBE-ACC4-7184F555AB2D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Farm\Public\Items\Item.h">
+      <Filter>Source\Farm\Public\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Farm\Public\Items\Seed.h">
+      <Filter>Source\Farm\Public\Items</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
