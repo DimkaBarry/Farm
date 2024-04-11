@@ -45,6 +45,9 @@
     <ClCompile Include="..\..\Source\Farm\Private\PlayerCharacter.cpp">
       <Filter>Source\Farm\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Farm\Private\Weapon.cpp">
+      <Filter>Source\Farm\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\Farm\Private\Items">
       <UniqueIdentifier>{85A2B9FD-4C06-3EC4-ACAC-99DAAF8E66B6}</UniqueIdentifier>
     </Filter>
@@ -58,6 +61,9 @@
       <UniqueIdentifier>{9399711A-5CAE-389E-BFE8-6C241320E593}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Farm\Public\PlayerCharacter.h">
+      <Filter>Source\Farm\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Farm\Public\Weapon.h">
       <Filter>Source\Farm\Public</Filter>
     </ClInclude>
     <Filter Include="Source\Farm\Public\Items">
