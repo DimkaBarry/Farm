@@ -75,5 +75,23 @@
     <ClInclude Include="..\..\Source\Farm\Public\Items\Seed.h">
       <Filter>Source\Farm\Public\Items</Filter>
     </ClInclude>
+    <Filter Include="Source\Farm\TP_ThirdPerson">
+      <UniqueIdentifier>{0D598DDE-3396-3595-AD3E-42DCD34CA23F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Farm\TP_ThirdPerson\TP_ThirdPerson.h">
+      <Filter>Source\Farm\TP_ThirdPerson</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Farm\TP_ThirdPerson\TP_ThirdPersonCharacter.cpp">
+      <Filter>Source\Farm\TP_ThirdPerson</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Farm\TP_ThirdPerson\TP_ThirdPersonCharacter.h">
+      <Filter>Source\Farm\TP_ThirdPerson</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Farm\TP_ThirdPerson\TP_ThirdPersonGameMode.cpp">
+      <Filter>Source\Farm\TP_ThirdPerson</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Farm\TP_ThirdPerson\TP_ThirdPersonGameMode.h">
+      <Filter>Source\Farm\TP_ThirdPerson</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
