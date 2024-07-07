@@ -7,7 +7,11 @@
         "Includes": [
             "f:\\github\\farm\\farm\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\farm\\definitions.farm.h",
             "f:\\github\\farm\\farm\\source\\farm\\public\\items\\item.h",
-            "f:\\github\\farm\\farm\\intermediate\\build\\win64\\unrealeditor\\inc\\farm\\uht\\item.generated.h"
+            "f:\\github\\farm\\farm\\intermediate\\build\\win64\\unrealeditor\\inc\\farm\\uht\\item.generated.h",
+            "g:\\apps\\unreal engine\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\spherecomponent.h",
+            "g:\\apps\\unreal engine\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "g:\\apps\\unreal engine\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "g:\\apps\\unreal engine\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\spherecomponent.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
