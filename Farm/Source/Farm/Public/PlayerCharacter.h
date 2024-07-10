@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Inventory.h"
 #include "InputActionValue.h"
 #include "PlayerCharacter.generated.h"
 
@@ -27,6 +28,9 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	UPROPERTY(VisibleAnywhere, Category = "Inventory")
+		UInventory* Inventory;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -44,9 +48,10 @@ protected:
 	void Look(const FInputActionValue& Value);
 
 private:
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(VisibleAnywhere, Category="Camera")
 		USpringArmComponent* CameraBoom;
-	UPROPERTY(VisibleAnywhere)
+
+	UPROPERTY(VisibleAnywhere, Category="Camera")
 		UCameraComponent* Camera;
 
 };

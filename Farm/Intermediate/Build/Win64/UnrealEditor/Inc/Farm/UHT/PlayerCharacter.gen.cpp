@@ -16,6 +16,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 	ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputMappingContext_NoRegister();
 	FARM_API UClass* Z_Construct_UClass_APlayerCharacter();
 	FARM_API UClass* Z_Construct_UClass_APlayerCharacter_NoRegister();
+	FARM_API UClass* Z_Construct_UClass_UInventory_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_Farm();
 // End Cross Module References
 	void APlayerCharacter::StaticRegisterNativesAPlayerCharacter()
@@ -32,6 +33,10 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Inventory_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_Inventory;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_PlayerCharacterContext_MetaData[];
 #endif
@@ -69,6 +74,14 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 	};
 #endif
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCharacter_Statics::NewProp_Inventory_MetaData[] = {
+		{ "Category", "Inventory" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/PlayerCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_Inventory = { "Inventory", nullptr, (EPropertyFlags)0x00100000000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerCharacter, Inventory), Z_Construct_UClass_UInventory_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_Inventory_MetaData), Z_Construct_UClass_APlayerCharacter_Statics::NewProp_Inventory_MetaData) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCharacter_Statics::NewProp_PlayerCharacterContext_MetaData[] = {
 		{ "Category", "Input" },
 		{ "ModuleRelativePath", "Public/PlayerCharacter.h" },
@@ -91,7 +104,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_LookAction = { "LookAction", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerCharacter, LookAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_LookAction_MetaData), Z_Construct_UClass_APlayerCharacter_Statics::NewProp_LookAction_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCharacter_Statics::NewProp_CameraBoom_MetaData[] = {
-		{ "Category", "PlayerCharacter" },
+		{ "Category", "Camera" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/PlayerCharacter.h" },
 	};
@@ -99,13 +112,14 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x00400000000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerCharacter, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_CameraBoom_MetaData), Z_Construct_UClass_APlayerCharacter_Statics::NewProp_CameraBoom_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCharacter_Statics::NewProp_Camera_MetaData[] = {
-		{ "Category", "PlayerCharacter" },
+		{ "Category", "Camera" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/PlayerCharacter.h" },
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_Camera = { "Camera", nullptr, (EPropertyFlags)0x00400000000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlayerCharacter, Camera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_Camera_MetaData), Z_Construct_UClass_APlayerCharacter_Statics::NewProp_Camera_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlayerCharacter_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_Inventory,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_PlayerCharacterContext,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_MovementAction,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_LookAction,
@@ -150,9 +164,9 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Farm_Source_Farm_Public_PlayerCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_APlayerCharacter, APlayerCharacter::StaticClass, TEXT("APlayerCharacter"), &Z_Registration_Info_UClass_APlayerCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlayerCharacter), 873735907U) },
+		{ Z_Construct_UClass_APlayerCharacter, APlayerCharacter::StaticClass, TEXT("APlayerCharacter"), &Z_Registration_Info_UClass_APlayerCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlayerCharacter), 332648461U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Farm_Source_Farm_Public_PlayerCharacter_h_256118112(TEXT("/Script/Farm"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Farm_Source_Farm_Public_PlayerCharacter_h_3315819530(TEXT("/Script/Farm"),
 		Z_CompiledInDeferFile_FID_Farm_Source_Farm_Public_PlayerCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Farm_Source_Farm_Public_PlayerCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
