@@ -18,11 +18,13 @@ public:
 	UFUNCTION()
 		void AddItemToInventory(const FString& NewItem);
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+		TArray <FString> Inventory;
+
 protected:
 	virtual void BeginPlay() override;
 
 private:
-	UPROPERTY(VisibleAnywhere)
-		TArray <FString> Inventory;
+	
 		
 };

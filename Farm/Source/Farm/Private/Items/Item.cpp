@@ -17,6 +17,7 @@ AItem::AItem()
 	Sphere = CreateDefaultSubobject<USphereComponent>(TEXT("Sphere"));
 	Sphere->SetupAttachment(GetRootComponent());
 
+	Name = GetName();
 }
 
 // Called when the game starts or when spawned

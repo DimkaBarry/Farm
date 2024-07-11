@@ -37,4 +37,7 @@ private:
 
 	UPROPERTY(VisibleAnywhere)
 		USphereComponent* Sphere;
+
+	UPROPERTY(VisibleAnywhere)
+		FString Name;
 };
