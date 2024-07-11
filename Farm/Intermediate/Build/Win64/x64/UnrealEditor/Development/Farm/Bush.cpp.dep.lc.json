@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\github\\farm\\farm\\source\\farm\\private\\bush.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\github\\farm\\farm\\intermediate\\build\\win64\\x64\\farmeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "f:\\github\\farm\\farm\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\farm\\definitions.farm.h",
+            "f:\\github\\farm\\farm\\source\\farm\\public\\bush.h",
+            "f:\\github\\farm\\farm\\intermediate\\build\\win64\\unrealeditor\\inc\\farm\\uht\\bush.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

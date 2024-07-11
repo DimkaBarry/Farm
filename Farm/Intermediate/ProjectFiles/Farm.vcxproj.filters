@@ -42,6 +42,9 @@
     <Filter Include="Source\Farm\Private">
       <UniqueIdentifier>{B4652747-9B3A-34CE-8272-41DE5515CFAA}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Farm\Private\Bush.cpp">
+      <Filter>Source\Farm\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Farm\Private\Inventory.cpp">
       <Filter>Source\Farm\Private</Filter>
     </ClCompile>
@@ -57,12 +60,12 @@
     <ClCompile Include="..\..\Source\Farm\Private\Items\Item.cpp">
       <Filter>Source\Farm\Private\Items</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\Farm\Private\Items\Seed.cpp">
-      <Filter>Source\Farm\Private\Items</Filter>
-    </ClCompile>
     <Filter Include="Source\Farm\Public">
       <UniqueIdentifier>{9399711A-5CAE-389E-BFE8-6C241320E593}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\Farm\Public\Bush.h">
+      <Filter>Source\Farm\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\Farm\Public\Inventory.h">
       <Filter>Source\Farm\Public</Filter>
     </ClInclude>
@@ -76,9 +79,6 @@
       <UniqueIdentifier>{2C881D51-31AB-3DBE-ACC4-7184F555AB2D}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Farm\Public\Items\Item.h">
-      <Filter>Source\Farm\Public\Items</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Farm\Public\Items\Seed.h">
       <Filter>Source\Farm\Public\Items</Filter>
     </ClInclude>
     <Filter Include="Source\Farm\TP_ThirdPerson">

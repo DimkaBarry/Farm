@@ -44,8 +44,12 @@ protected:
 	UPROPERTY(EditAnywhere, Category = Input)
 		UInputAction* LookAction;
 
+	UPROPERTY(EditAnywhere, Category = Input)
+		UInputAction* InteractAction;
+
 	void Move(const FInputActionValue& Value);
 	void Look(const FInputActionValue& Value);
+	void EKeyPressed();
 
 private:
 	UPROPERTY(VisibleAnywhere, Category="Camera")
