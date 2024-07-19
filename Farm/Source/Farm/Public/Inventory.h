@@ -2,6 +2,7 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include "FSlotStruct.h"
 #include "Inventory.generated.h"
 
 
@@ -18,6 +19,9 @@ public:
 	UFUNCTION()
 		void AddItemToInventory(const FString& NewItem);
 
+	UFUNCTION()
+		void RemoveItemFromInventory(const FString& NewItem);
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		TArray <FString> Inventory;
 
@@ -25,6 +29,9 @@ protected:
 	virtual void BeginPlay() override;
 
 private:
-	
+	UPROPERTY(EditAnywhere)
+		int InventorySize;
 		
+	UPROPERTY(EditAnywhere)
+		TArray <FSlotStruct> Content;
 };

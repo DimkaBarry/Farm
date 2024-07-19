@@ -45,6 +45,12 @@
     <ClCompile Include="..\..\Source\Farm\Private\Bush.cpp">
       <Filter>Source\Farm\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Farm\Private\FItemStruct.cpp">
+      <Filter>Source\Farm\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Farm\Private\FSlotStruct.cpp">
+      <Filter>Source\Farm\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Farm\Private\Inventory.cpp">
       <Filter>Source\Farm\Private</Filter>
     </ClCompile>
@@ -64,6 +70,12 @@
       <UniqueIdentifier>{9399711A-5CAE-389E-BFE8-6C241320E593}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Farm\Public\Bush.h">
+      <Filter>Source\Farm\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Farm\Public\FItemStruct.h">
+      <Filter>Source\Farm\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Farm\Public\FSlotStruct.h">
       <Filter>Source\Farm\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\Farm\Public\Inventory.h">

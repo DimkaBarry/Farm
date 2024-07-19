@@ -22,10 +22,13 @@ void UInventory::AddItemToInventory(const FString& NewItem)
 	}
 }
 
+void UInventory::RemoveItemFromInventory(const FString& NewItem)
+{
+}
+
 
 // Called every frame
 void UInventory::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 }
-

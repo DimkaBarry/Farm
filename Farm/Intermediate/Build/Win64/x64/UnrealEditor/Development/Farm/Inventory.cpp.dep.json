@@ -7,6 +7,8 @@
         "Includes": [
             "f:\\github\\farm\\farm\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\farm\\definitions.farm.h",
             "f:\\github\\farm\\farm\\source\\farm\\public\\inventory.h",
+            "f:\\github\\farm\\farm\\source\\farm\\public\\fslotstruct.h",
+            "f:\\github\\farm\\farm\\intermediate\\build\\win64\\unrealeditor\\inc\\farm\\uht\\fslotstruct.generated.h",
             "f:\\github\\farm\\farm\\intermediate\\build\\win64\\unrealeditor\\inc\\farm\\uht\\inventory.generated.h"
         ],
         "ImportedModules": [],
